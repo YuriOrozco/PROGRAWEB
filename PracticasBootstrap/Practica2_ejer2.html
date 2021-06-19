@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  	<script src = "js/bootstrap.min.js"></script>
+	<title></title>
+	<style type="text/css">
+		body{
+			font-size: 25px;
+		}
+		@media (min-width: 769px) {
+   			.header {
+       		 background-color: greenyellow;
+       		 border-style: solid;
+       		 border-color: white;
+            }
+    		.uno , .dos , .tres{
+				text-align: center;
+				background-color: red;
+				border-style: solid;
+				border-color: white;
+			}
+			.f1 , .f2 {
+				background-color: yellow;
+				border-style: solid;
+				border-color: white;
+			}
+			.f1{
+				text-align: right;
+
+			}
+		}
+		@media (max-width: 768px){
+			.header{
+				background-color: lightblue;
+				border-style: solid;
+				border-color: white;
+			}
+			.uno{
+				text-align: left;
+				background-color: red;
+				border-style: solid;
+				border-color: white;
+			}
+			.dos{
+				text-align: right;
+				background-color: red;
+				border-style: solid;
+				border-color: white;
+			}
+			.tres{
+				text-align: center;
+				background-color: greenyellow;
+				border-style: solid;
+			}
+			.f1, .f2{
+				background-color: yellow;
+				border-style: solid;
+				border-color: white;
+				text-align: center;
+			}
+		}
+		@media (max-width:  576px){
+			.header{
+				background-color: salmon;
+				text-align: center;
+				border-style: solid;
+				border-color: white;	
+			}
+			.uno{
+				text-align: left;
+				background-color: red;
+				border-style: solid;
+				border-color: white;
+			}
+			.dos{
+				text-align: center;
+				background-color: lightblue;
+				border-style: solid;
+				border-color: white;
+			}
+			.tres{
+				text-align: right;
+				background-color: red;
+				border-style: solid;
+				border-color: white;
+			}
+		}
+		
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+	<div class="col-12 header">Header</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4 uno col-sm-6">1</div>
+		<div class="col-md-4 dos col-sm-6">2</div>
+		<div class="col-md-4 tres col-sm-12">3</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 f1 col-sm-12">Footer 1</div>
+		<div class="col-md-6 f2 col-sm-12">Footer 2</div>
+	</div>
+</div>
+</body>
+</html>
