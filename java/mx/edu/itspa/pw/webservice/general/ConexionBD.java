@@ -8,7 +8,7 @@ public class ConexionBD {
     private static final String PORT="3306";
     private static final String USER="root";
     private static final String PASSW="";
-    private static final String BD="prueba";
+    private static final String BD="proyectoprogra";
     // AHORA VAMOS A CREAR UNA FUNCION MEJOR
     public static Connection obtenerConexion() {//throws SQLException
         Connection conn=null;
